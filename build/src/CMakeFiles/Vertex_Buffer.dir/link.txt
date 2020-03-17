@@ -1,2 +1,0 @@
-/usr/bin/ar qc libVertex_Buffer.a  CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.o
-/usr/bin/ranlib libVertex_Buffer.a

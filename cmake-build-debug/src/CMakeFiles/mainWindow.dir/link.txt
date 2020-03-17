@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/mainWindow.dir/application.cpp.o  -o mainWindow libRenderer.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/local/lib/libglfw3.a -lpthread -lrt -lm -ldl /usr/local/lib/libGLEW.a -lGL -lGLU -lSM -lICE -lX11 -lXext libIndex_Buffer.a libVertex_Buffer.a libVertex_Array.a libVertex_Buffer_Layout.a libShader.a libTexture.a ../lib/libstb_image.a 
