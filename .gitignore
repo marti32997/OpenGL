@@ -61,3 +61,5 @@ _deps
 DartConfiguration.tcl
 
 build/.cmake/**
+build/**
+cmake-build-debug/**
