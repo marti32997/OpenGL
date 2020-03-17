@@ -11,10 +11,10 @@
 #include "Index_Buffer.h"
 #include "Renderer.h"
 #include "Shader.h"
+#include "Texture.h"
 #include "Vertex_Array.h"
 #include "Vertex_Buffer.h"
 #include "Vertex_Buffer_Layout.h"
-#include "Texture.h"
 
 int main(void)
 {
@@ -48,8 +48,8 @@ int main(void)
 	float positions[] = {
 		-0.5f, -0.5f, 0.0f, 0.0f, // 0
 		0.5f, -0.5f, 1.0f, 0.0f,  // 1
-		0.5f, 0.5f, 1.0f, 1.0f,   // 2
-		-0.5f, 0.5f, 0.0f, 1.0f   // 3
+		0.5f, 0.5f, 1.0f, 1.0f,	  // 2
+		-0.5f, 0.5f, 0.0f, 1.0f	  // 3
 	};
 
 	unsigned int indices[] = {

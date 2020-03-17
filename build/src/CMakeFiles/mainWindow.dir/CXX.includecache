@@ -73,12 +73,12 @@ Renderer.h
 /home/yosua/Projects/OpenGL/src/Renderer.h
 Shader.h
 /home/yosua/Projects/OpenGL/src/Shader.h
+Texture.h
+/home/yosua/Projects/OpenGL/src/Texture.h
 Vertex_Array.h
 /home/yosua/Projects/OpenGL/src/Vertex_Array.h
 Vertex_Buffer.h
 /home/yosua/Projects/OpenGL/src/Vertex_Buffer.h
 Vertex_Buffer_Layout.h
 /home/yosua/Projects/OpenGL/src/Vertex_Buffer_Layout.h
-Texture.h
-/home/yosua/Projects/OpenGL/src/Texture.h
 
