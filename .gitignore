@@ -59,3 +59,5 @@ _deps
 
 ### DartConfiguration ###
 DartConfiguration.tcl
+
+build/.cmake/**
