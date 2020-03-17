@@ -60,10 +60,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL
+CMAKE_SOURCE_DIR = /home/yosua/Projects/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
+CMAKE_BINARY_DIR = /home/yosua/Projects/OpenGL/build
 
 # Utility rule file for Continuous.
 
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
 include tests/CMakeFiles/Continuous.dir/progress.make
 
 tests/CMakeFiles/Continuous:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests && /usr/local/bin/ctest -D Continuous
+	cd /home/yosua/Projects/OpenGL/build/tests && /usr/local/bin/ctest -D Continuous
 
 Continuous: tests/CMakeFiles/Continuous
 Continuous: tests/CMakeFiles/Continuous.dir/build.make
@@ -84,10 +84,10 @@ tests/CMakeFiles/Continuous.dir/build: Continuous
 .PHONY : tests/CMakeFiles/Continuous.dir/build
 
 tests/CMakeFiles/Continuous.dir/clean:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Continuous.dir/cmake_clean.cmake
+	cd /home/yosua/Projects/OpenGL/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Continuous.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/Continuous.dir/clean
 
 tests/CMakeFiles/Continuous.dir/depend:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/tests /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests/CMakeFiles/Continuous.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yosua/Projects/OpenGL /home/yosua/Projects/OpenGL/tests /home/yosua/Projects/OpenGL/build /home/yosua/Projects/OpenGL/build/tests /home/yosua/Projects/OpenGL/build/tests/CMakeFiles/Continuous.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/Continuous.dir/depend
 

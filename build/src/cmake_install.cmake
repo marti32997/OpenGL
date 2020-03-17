@@ -1,4 +1,4 @@
-# Install script for directory: /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src
+# Install script for directory: /home/yosua/Projects/OpenGL/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

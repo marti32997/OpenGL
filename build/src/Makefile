@@ -65,10 +65,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL
+CMAKE_SOURCE_DIR = /home/yosua/Projects/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
+CMAKE_BINARY_DIR = /home/yosua/Projects/OpenGL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src/CMakeFiles/progress.marks
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles 0
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/OpenGL/build/CMakeFiles /home/yosua/Projects/OpenGL/build/src/CMakeFiles/progress.marks
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/OpenGL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -114,22 +114,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/mainWindow.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mainWindow.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mainWindow.dir/rule
 .PHONY : src/CMakeFiles/mainWindow.dir/rule
 
 # Convenience name for target.
@@ -139,12 +139,12 @@ mainWindow: src/CMakeFiles/mainWindow.dir/rule
 
 # fast build rule for target.
 mainWindow/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/build
 .PHONY : mainWindow/fast
 
 # Convenience name for target.
 src/CMakeFiles/Texture.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Texture.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Texture.dir/rule
 .PHONY : src/CMakeFiles/Texture.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ Texture: src/CMakeFiles/Texture.dir/rule
 
 # fast build rule for target.
 Texture/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/build
 .PHONY : Texture/fast
 
 # Convenience name for target.
 src/CMakeFiles/Vertex_Buffer.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Buffer.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Buffer.dir/rule
 .PHONY : src/CMakeFiles/Vertex_Buffer.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ Vertex_Buffer: src/CMakeFiles/Vertex_Buffer.dir/rule
 
 # fast build rule for target.
 Vertex_Buffer/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/build
 .PHONY : Vertex_Buffer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Shader.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Shader.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Shader.dir/rule
 .PHONY : src/CMakeFiles/Shader.dir/rule
 
 # Convenience name for target.
@@ -184,12 +184,12 @@ Shader: src/CMakeFiles/Shader.dir/rule
 
 # fast build rule for target.
 Shader/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/build
 .PHONY : Shader/fast
 
 # Convenience name for target.
 src/CMakeFiles/Renderer.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Renderer.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Renderer.dir/rule
 .PHONY : src/CMakeFiles/Renderer.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ Renderer: src/CMakeFiles/Renderer.dir/rule
 
 # fast build rule for target.
 Renderer/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/build
 .PHONY : Renderer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Index_Buffer.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Index_Buffer.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Index_Buffer.dir/rule
 .PHONY : src/CMakeFiles/Index_Buffer.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ Index_Buffer: src/CMakeFiles/Index_Buffer.dir/rule
 
 # fast build rule for target.
 Index_Buffer/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/build
 .PHONY : Index_Buffer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Vertex_Array.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Array.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Array.dir/rule
 .PHONY : src/CMakeFiles/Vertex_Array.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ Vertex_Array: src/CMakeFiles/Vertex_Array.dir/rule
 
 # fast build rule for target.
 Vertex_Array/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/build
 .PHONY : Vertex_Array/fast
 
 # Convenience name for target.
 src/CMakeFiles/Vertex_Buffer_Layout.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Buffer_Layout.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Vertex_Buffer_Layout.dir/rule
 .PHONY : src/CMakeFiles/Vertex_Buffer_Layout.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ Vertex_Buffer_Layout: src/CMakeFiles/Vertex_Buffer_Layout.dir/rule
 
 # fast build rule for target.
 Vertex_Buffer_Layout/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/build
 .PHONY : Vertex_Buffer_Layout/fast
 
 Index_Buffer.o: Index_Buffer.cpp.o
@@ -253,7 +253,7 @@ Index_Buffer.o: Index_Buffer.cpp.o
 
 # target to build an object file
 Index_Buffer.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.o
 .PHONY : Index_Buffer.cpp.o
 
 Index_Buffer.i: Index_Buffer.cpp.i
@@ -262,7 +262,7 @@ Index_Buffer.i: Index_Buffer.cpp.i
 
 # target to preprocess a source file
 Index_Buffer.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.i
 .PHONY : Index_Buffer.cpp.i
 
 Index_Buffer.s: Index_Buffer.cpp.s
@@ -271,7 +271,7 @@ Index_Buffer.s: Index_Buffer.cpp.s
 
 # target to generate assembly for a file
 Index_Buffer.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Index_Buffer.dir/build.make src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.s
 .PHONY : Index_Buffer.cpp.s
 
 Renderer.o: Renderer.cpp.o
@@ -280,7 +280,7 @@ Renderer.o: Renderer.cpp.o
 
 # target to build an object file
 Renderer.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.o
 .PHONY : Renderer.cpp.o
 
 Renderer.i: Renderer.cpp.i
@@ -289,7 +289,7 @@ Renderer.i: Renderer.cpp.i
 
 # target to preprocess a source file
 Renderer.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.i
 .PHONY : Renderer.cpp.i
 
 Renderer.s: Renderer.cpp.s
@@ -298,7 +298,7 @@ Renderer.s: Renderer.cpp.s
 
 # target to generate assembly for a file
 Renderer.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Renderer.dir/build.make src/CMakeFiles/Renderer.dir/Renderer.cpp.s
 .PHONY : Renderer.cpp.s
 
 Shader.o: Shader.cpp.o
@@ -307,7 +307,7 @@ Shader.o: Shader.cpp.o
 
 # target to build an object file
 Shader.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.o
 .PHONY : Shader.cpp.o
 
 Shader.i: Shader.cpp.i
@@ -316,7 +316,7 @@ Shader.i: Shader.cpp.i
 
 # target to preprocess a source file
 Shader.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.i
 .PHONY : Shader.cpp.i
 
 Shader.s: Shader.cpp.s
@@ -325,7 +325,7 @@ Shader.s: Shader.cpp.s
 
 # target to generate assembly for a file
 Shader.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Shader.dir/build.make src/CMakeFiles/Shader.dir/Shader.cpp.s
 .PHONY : Shader.cpp.s
 
 Texture.o: Texture.cpp.o
@@ -334,7 +334,7 @@ Texture.o: Texture.cpp.o
 
 # target to build an object file
 Texture.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.o
 .PHONY : Texture.cpp.o
 
 Texture.i: Texture.cpp.i
@@ -343,7 +343,7 @@ Texture.i: Texture.cpp.i
 
 # target to preprocess a source file
 Texture.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.i
 .PHONY : Texture.cpp.i
 
 Texture.s: Texture.cpp.s
@@ -352,7 +352,7 @@ Texture.s: Texture.cpp.s
 
 # target to generate assembly for a file
 Texture.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Texture.dir/build.make src/CMakeFiles/Texture.dir/Texture.cpp.s
 .PHONY : Texture.cpp.s
 
 Vertex_Array.o: Vertex_Array.cpp.o
@@ -361,7 +361,7 @@ Vertex_Array.o: Vertex_Array.cpp.o
 
 # target to build an object file
 Vertex_Array.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o
 .PHONY : Vertex_Array.cpp.o
 
 Vertex_Array.i: Vertex_Array.cpp.i
@@ -370,7 +370,7 @@ Vertex_Array.i: Vertex_Array.cpp.i
 
 # target to preprocess a source file
 Vertex_Array.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.i
 .PHONY : Vertex_Array.cpp.i
 
 Vertex_Array.s: Vertex_Array.cpp.s
@@ -379,7 +379,7 @@ Vertex_Array.s: Vertex_Array.cpp.s
 
 # target to generate assembly for a file
 Vertex_Array.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Array.dir/build.make src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.s
 .PHONY : Vertex_Array.cpp.s
 
 Vertex_Buffer.o: Vertex_Buffer.cpp.o
@@ -388,7 +388,7 @@ Vertex_Buffer.o: Vertex_Buffer.cpp.o
 
 # target to build an object file
 Vertex_Buffer.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.o
 .PHONY : Vertex_Buffer.cpp.o
 
 Vertex_Buffer.i: Vertex_Buffer.cpp.i
@@ -397,7 +397,7 @@ Vertex_Buffer.i: Vertex_Buffer.cpp.i
 
 # target to preprocess a source file
 Vertex_Buffer.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.i
 .PHONY : Vertex_Buffer.cpp.i
 
 Vertex_Buffer.s: Vertex_Buffer.cpp.s
@@ -406,7 +406,7 @@ Vertex_Buffer.s: Vertex_Buffer.cpp.s
 
 # target to generate assembly for a file
 Vertex_Buffer.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer.dir/build.make src/CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.s
 .PHONY : Vertex_Buffer.cpp.s
 
 Vertex_Buffer_Layout.o: Vertex_Buffer_Layout.cpp.o
@@ -415,7 +415,7 @@ Vertex_Buffer_Layout.o: Vertex_Buffer_Layout.cpp.o
 
 # target to build an object file
 Vertex_Buffer_Layout.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.o
 .PHONY : Vertex_Buffer_Layout.cpp.o
 
 Vertex_Buffer_Layout.i: Vertex_Buffer_Layout.cpp.i
@@ -424,7 +424,7 @@ Vertex_Buffer_Layout.i: Vertex_Buffer_Layout.cpp.i
 
 # target to preprocess a source file
 Vertex_Buffer_Layout.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.i
 .PHONY : Vertex_Buffer_Layout.cpp.i
 
 Vertex_Buffer_Layout.s: Vertex_Buffer_Layout.cpp.s
@@ -433,7 +433,7 @@ Vertex_Buffer_Layout.s: Vertex_Buffer_Layout.cpp.s
 
 # target to generate assembly for a file
 Vertex_Buffer_Layout.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/Vertex_Buffer_Layout.dir/build.make src/CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.s
 .PHONY : Vertex_Buffer_Layout.cpp.s
 
 application.o: application.cpp.o
@@ -442,7 +442,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -451,7 +451,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -460,7 +460,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f src/CMakeFiles/mainWindow.dir/build.make src/CMakeFiles/mainWindow.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 # Help Target
@@ -514,6 +514,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

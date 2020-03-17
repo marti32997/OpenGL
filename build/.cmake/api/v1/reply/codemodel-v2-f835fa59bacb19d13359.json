@@ -281,7 +281,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Index_Buffer::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Index_Buffer-Debug-9e93c7ff7686705b029a.json",
+					"jsonFile" : "target-Index_Buffer-Debug-1eff6d9261a9fc339336.json",
 					"name" : "Index_Buffer",
 					"projectIndex" : 0
 				},
@@ -358,56 +358,56 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Renderer::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Renderer-Debug-a00617de6cdc8ef914b5.json",
+					"jsonFile" : "target-Renderer-Debug-5d1024231e911c364121.json",
 					"name" : "Renderer",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Shader::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Shader-Debug-8d03227cdf57858a27db.json",
+					"jsonFile" : "target-Shader-Debug-209ecf9bccbc41e174b9.json",
 					"name" : "Shader",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Texture::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Texture-Debug-1078c070e8cac16cbd2c.json",
+					"jsonFile" : "target-Texture-Debug-aa4b69baeac15a4291f4.json",
 					"name" : "Texture",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Vertex_Array::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Vertex_Array-Debug-fe71d5c731262ccc5cfe.json",
+					"jsonFile" : "target-Vertex_Array-Debug-219073c75fbd99198a71.json",
 					"name" : "Vertex_Array",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Vertex_Buffer::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Vertex_Buffer-Debug-9ee0ea80c1cf69c3947e.json",
+					"jsonFile" : "target-Vertex_Buffer-Debug-69ff75a944d8f18a87b7.json",
 					"name" : "Vertex_Buffer",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Vertex_Buffer_Layout::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Vertex_Buffer_Layout-Debug-11aaa8e22a9fb29e8250.json",
+					"jsonFile" : "target-Vertex_Buffer_Layout-Debug-a3f296acac79d8fce1ab.json",
 					"name" : "Vertex_Buffer_Layout",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "mainWindow::@145eef247bfb46b6828c",
-					"jsonFile" : "target-mainWindow-Debug-597a32ab43539581d7f3.json",
+					"jsonFile" : "target-mainWindow-Debug-bbf6324f2eb3562f01bc.json",
 					"name" : "mainWindow",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "stb_image::@306ed2d68c6501e8728f",
-					"jsonFile" : "target-stb_image-Debug-cfa41a4293a5a5ddf69e.json",
+					"jsonFile" : "target-stb_image-Debug-879c01ef65b666ea4c6b.json",
 					"name" : "stb_image",
 					"projectIndex" : 0
 				}
@@ -417,8 +417,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build",
-		"source" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL"
+		"build" : "/home/yosua/Projects/OpenGL/build",
+		"source" : "/home/yosua/Projects/OpenGL"
 	},
 	"version" : 
 	{

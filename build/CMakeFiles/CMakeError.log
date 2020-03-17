@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0f397/fast && /usr/bin/make -f CMakeFiles/cmTC_0f397.dir/build.make CMakeFiles/cmTC_0f397.dir/build
-make[1]: Entering directory '/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f397.dir/src.c.o
-/usr/bin/gcc-7   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_0f397.dir/src.c.o   -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_0f397
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f397.dir/link.txt --verbose=1
-/usr/bin/gcc-7  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0f397.dir/src.c.o  -o cmTC_0f397 
-CMakeFiles/cmTC_0f397.dir/src.c.o: In function `main':
+Run Build Command(s):/usr/bin/make cmTC_8da59/fast && /usr/bin/make -f CMakeFiles/cmTC_8da59.dir/build.make CMakeFiles/cmTC_8da59.dir/build
+make[1]: Entering directory '/home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8da59.dir/src.c.o
+/usr/bin/gcc-7   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8da59.dir/src.c.o   -c /home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8da59
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da59.dir/link.txt --verbose=1
+/usr/bin/gcc-7  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_8da59.dir/src.c.o  -o cmTC_8da59 
+CMakeFiles/cmTC_8da59.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0f397.dir/build.make:103: recipe for target 'cmTC_0f397' failed
-make[1]: *** [cmTC_0f397] Error 1
-make[1]: Leaving directory '/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp'
-Makefile:138: recipe for target 'cmTC_0f397/fast' failed
-make: *** [cmTC_0f397/fast] Error 2
+CMakeFiles/cmTC_8da59.dir/build.make:103: recipe for target 'cmTC_8da59' failed
+make[1]: *** [cmTC_8da59] Error 1
+make[1]: Leaving directory '/home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_8da59/fast' failed
+make: *** [cmTC_8da59/fast] Error 2
 
 
 Source file was:
@@ -44,22 +44,22 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp
+Change Dir: /home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d4a10/fast && /usr/bin/make -f CMakeFiles/cmTC_d4a10.dir/build.make CMakeFiles/cmTC_d4a10.dir/build
-make[1]: Entering directory '/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4a10.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d4a10.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d4a10
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a10.dir/link.txt --verbose=1
-/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d4a10.dir/CheckFunctionExists.c.o  -o cmTC_d4a10  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_19c51/fast && /usr/bin/make -f CMakeFiles/cmTC_19c51.dir/build.make CMakeFiles/cmTC_19c51.dir/build
+make[1]: Entering directory '/home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19c51.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_19c51.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19c51
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19c51.dir/link.txt --verbose=1
+/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_19c51.dir/CheckFunctionExists.c.o  -o cmTC_19c51  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d4a10.dir/build.make:103: recipe for target 'cmTC_d4a10' failed
-make[1]: *** [cmTC_d4a10] Error 1
-make[1]: Leaving directory '/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles/CMakeTmp'
-Makefile:138: recipe for target 'cmTC_d4a10/fast' failed
-make: *** [cmTC_d4a10/fast] Error 2
+CMakeFiles/cmTC_19c51.dir/build.make:103: recipe for target 'cmTC_19c51' failed
+make[1]: *** [cmTC_19c51] Error 1
+make[1]: Leaving directory '/home/yosua/Projects/OpenGL/build/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_19c51/fast' failed
+make: *** [cmTC_19c51/fast] Error 2
 
 
 

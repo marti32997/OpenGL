@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.cpp" "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o"
+  "/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.cpp" "/home/yosua/Projects/OpenGL/build/lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

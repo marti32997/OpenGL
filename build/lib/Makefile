@@ -65,10 +65,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL
+CMAKE_SOURCE_DIR = /home/yosua/Projects/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
+CMAKE_BINARY_DIR = /home/yosua/Projects/OpenGL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/lib/CMakeFiles/progress.marks
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/CMakeFiles 0
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/OpenGL/build/CMakeFiles /home/yosua/Projects/OpenGL/build/lib/CMakeFiles/progress.marks
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yosua/Projects/OpenGL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -114,22 +114,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/stb_image.dir/rule:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/stb_image.dir/rule
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/stb_image.dir/rule
 .PHONY : lib/CMakeFiles/stb_image.dir/rule
 
 # Convenience name for target.
@@ -139,7 +139,7 @@ stb_image: lib/CMakeFiles/stb_image.dir/rule
 
 # fast build rule for target.
 stb_image/fast:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/build
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/build
 .PHONY : stb_image/fast
 
 stb_image/stb_image.o: stb_image/stb_image.cpp.o
@@ -148,7 +148,7 @@ stb_image/stb_image.o: stb_image/stb_image.cpp.o
 
 # target to build an object file
 stb_image/stb_image.cpp.o:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o
 .PHONY : stb_image/stb_image.cpp.o
 
 stb_image/stb_image.i: stb_image/stb_image.cpp.i
@@ -157,7 +157,7 @@ stb_image/stb_image.i: stb_image/stb_image.cpp.i
 
 # target to preprocess a source file
 stb_image/stb_image.cpp.i:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i
 .PHONY : stb_image/stb_image.cpp.i
 
 stb_image/stb_image.s: stb_image/stb_image.cpp.s
@@ -166,7 +166,7 @@ stb_image/stb_image.s: stb_image/stb_image.cpp.s
 
 # target to generate assembly for a file
 stb_image/stb_image.cpp.s:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s
+	cd /home/yosua/Projects/OpenGL/build && $(MAKE) -f lib/CMakeFiles/stb_image.dir/build.make lib/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s
 .PHONY : stb_image/stb_image.cpp.s
 
 # Help Target
@@ -192,6 +192,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

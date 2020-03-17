@@ -8,4 +8,4 @@ src/CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o
  ../include/Vertex_Array.h
  ../include/Vertex_Buffer.h
  ../include/Vertex_Buffer_Layout.h
- /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.cpp
+ /home/yosua/Projects/OpenGL/src/Vertex_Array.cpp

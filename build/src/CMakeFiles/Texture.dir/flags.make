@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib 
+CXX_INCLUDES = -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib 
 

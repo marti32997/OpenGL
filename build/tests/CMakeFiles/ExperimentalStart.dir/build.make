@@ -60,10 +60,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL
+CMAKE_SOURCE_DIR = /home/yosua/Projects/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
+CMAKE_BINARY_DIR = /home/yosua/Projects/OpenGL/build
 
 # Utility rule file for ExperimentalStart.
 
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
 include tests/CMakeFiles/ExperimentalStart.dir/progress.make
 
 tests/CMakeFiles/ExperimentalStart:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests && /usr/local/bin/ctest -D ExperimentalStart
+	cd /home/yosua/Projects/OpenGL/build/tests && /usr/local/bin/ctest -D ExperimentalStart
 
 ExperimentalStart: tests/CMakeFiles/ExperimentalStart
 ExperimentalStart: tests/CMakeFiles/ExperimentalStart.dir/build.make
@@ -84,10 +84,10 @@ tests/CMakeFiles/ExperimentalStart.dir/build: ExperimentalStart
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/build
 
 tests/CMakeFiles/ExperimentalStart.dir/clean:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake
+	cd /home/yosua/Projects/OpenGL/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/clean
 
 tests/CMakeFiles/ExperimentalStart.dir/depend:
-	cd /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/tests /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/tests/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yosua/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yosua/Projects/OpenGL /home/yosua/Projects/OpenGL/tests /home/yosua/Projects/OpenGL/build /home/yosua/Projects/OpenGL/build/tests /home/yosua/Projects/OpenGL/build/tests/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/ExperimentalStart.dir/depend
 

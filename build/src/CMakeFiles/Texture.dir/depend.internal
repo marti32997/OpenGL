@@ -9,4 +9,4 @@ src/CMakeFiles/Texture.dir/Texture.cpp.o
  ../include/Vertex_Array.h
  ../include/Vertex_Buffer.h
  ../lib/stb_image/stb_image.h
- /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp
+ /home/yosua/Projects/OpenGL/src/Texture.cpp

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL
-BuildDirectory: /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build
+SourceDirectory: /home/yosua/Projects/OpenGL
+BuildDirectory: /home/yosua/Projects/OpenGL/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/bin/cmake" "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL"
+ConfigureCommand: "/usr/local/bin/cmake" "/home/yosua/Projects/OpenGL"
 MakeCommand: /usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -9,4 +9,4 @@ src/CMakeFiles/mainWindow.dir/application.cpp.o
  ../include/Vertex_Array.h
  ../include/Vertex_Buffer.h
  ../include/Vertex_Buffer_Layout.h
- /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/application.cpp
+ /home/yosua/Projects/OpenGL/src/application.cpp

@@ -7,4 +7,4 @@ src/CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.o
  ../include/Shader.h
  ../include/Vertex_Array.h
  ../include/Vertex_Buffer.h
- /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Index_Buffer.cpp
+ /home/yosua/Projects/OpenGL/src/Index_Buffer.cpp

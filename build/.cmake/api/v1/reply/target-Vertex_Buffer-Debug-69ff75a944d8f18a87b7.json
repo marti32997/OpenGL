@@ -90,11 +90,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"
+					"path" : "/home/yosua/Projects/OpenGL/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"
+					"path" : "/home/yosua/Projects/OpenGL/lib"
 				}
 			],
 			"language" : "CXX",

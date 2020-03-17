@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.cpp
+/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.cpp
 stb_image.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.h
+/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.h
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.h
+/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.h
 stb_image.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.h
+/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.h
 stdio.h
 -
 stdlib.h

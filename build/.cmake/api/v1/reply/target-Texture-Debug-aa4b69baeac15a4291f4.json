@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libIndex_Buffer.a"
+			"path" : "src/libTexture.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,6 +12,7 @@
 		"commands" : 
 		[
 			"add_library",
+			"target_link_libraries",
 			"add_compile_options",
 			"include_directories"
 		],
@@ -28,29 +29,35 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"file" : 1
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 1,
 				"line" : 7,
-				"parent" : 2
+				"parent" : 3
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 1,
 				"line" : 9,
-				"parent" : 2
+				"parent" : 3
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 1,
 				"line" : 10,
-				"parent" : 2
+				"parent" : 3
 			}
 		]
 	},
@@ -63,23 +70,23 @@
 					"fragment" : "-g  "
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-Wshadow"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-Wnon-virtual-dtor"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"fragment" : "-Wpedantic"
 				},
 				{
@@ -89,12 +96,12 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
-					"path" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"
+					"backtrace" : 5,
+					"path" : "/home/yosua/Projects/OpenGL/include"
 				},
 				{
-					"backtrace" : 5,
-					"path" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"
+					"backtrace" : 6,
+					"path" : "/home/yosua/Projects/OpenGL/lib"
 				}
 			],
 			"language" : "CXX",
@@ -104,9 +111,16 @@
 			]
 		}
 	],
-	"id" : "Index_Buffer::@145eef247bfb46b6828c",
-	"name" : "Index_Buffer",
-	"nameOnDisk" : "libIndex_Buffer.a",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "stb_image::@306ed2d68c6501e8728f"
+		}
+	],
+	"id" : "Texture::@145eef247bfb46b6828c",
+	"name" : "Texture",
+	"nameOnDisk" : "libTexture.a",
 	"paths" : 
 	{
 		"build" : "src",
@@ -127,7 +141,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Index_Buffer.cpp",
+			"path" : "src/Texture.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,47 +1,47 @@
 [
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/lib",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/lib",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/yosua/Projects/OpenGL/lib/stb_image/stb_image.cpp",
+  "file": "/home/yosua/Projects/OpenGL/lib/stb_image/stb_image.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7  -DGLEW_STATIC -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/mainWindow.dir/application.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/application.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/application.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7  -DGLEW_STATIC -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/mainWindow.dir/application.cpp.o -c /home/yosua/Projects/OpenGL/src/application.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/application.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Texture.dir/Texture.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Texture.dir/Texture.cpp.o -c /home/yosua/Projects/OpenGL/src/Texture.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Texture.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Buffer.dir/Vertex_Buffer.cpp.o -c /home/yosua/Projects/OpenGL/src/Vertex_Buffer.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Vertex_Buffer.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Shader.dir/Shader.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Shader.dir/Shader.cpp.o -c /home/yosua/Projects/OpenGL/src/Shader.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Shader.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Renderer.dir/Renderer.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Renderer.dir/Renderer.cpp.o -c /home/yosua/Projects/OpenGL/src/Renderer.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Renderer.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Index_Buffer.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Index_Buffer.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Index_Buffer.dir/Index_Buffer.cpp.o -c /home/yosua/Projects/OpenGL/src/Index_Buffer.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Index_Buffer.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o -c /home/yosua/Projects/OpenGL/src/Vertex_Array.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Vertex_Array.cpp"
 },
 {
-  "directory": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src",
-  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include -I/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.o -c /home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer_Layout.cpp",
-  "file": "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer_Layout.cpp"
+  "directory": "/home/yosua/Projects/OpenGL/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/OpenGL/include -I/home/yosua/Projects/OpenGL/lib  -g   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wpedantic -std=gnu++1z -o CMakeFiles/Vertex_Buffer_Layout.dir/Vertex_Buffer_Layout.cpp.o -c /home/yosua/Projects/OpenGL/src/Vertex_Buffer_Layout.cpp",
+  "file": "/home/yosua/Projects/OpenGL/src/Vertex_Buffer_Layout.cpp"
 }
 ]

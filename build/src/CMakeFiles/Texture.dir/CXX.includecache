@@ -74,9 +74,9 @@ intrin.h
 arm_neon.h
 -
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp
+/home/yosua/Projects/OpenGL/src/Texture.cpp
 Texture.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.h
+/home/yosua/Projects/OpenGL/src/Texture.h
 stb_image/stb_image.h
 -
 

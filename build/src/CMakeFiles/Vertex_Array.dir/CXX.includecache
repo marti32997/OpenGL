@@ -44,11 +44,11 @@ vector
 Renderer.h
 ../include/Renderer.h
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.cpp
+/home/yosua/Projects/OpenGL/src/Vertex_Array.cpp
 Vertex_Array.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.h
+/home/yosua/Projects/OpenGL/src/Vertex_Array.h
 Renderer.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.h
+/home/yosua/Projects/OpenGL/src/Renderer.h
 Vertex_Buffer_Layout.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer_Layout.h
+/home/yosua/Projects/OpenGL/src/Vertex_Buffer_Layout.h
 

@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build"
+			"value" : "/home/yosua/Projects/OpenGL/build"
 		},
 		{
 			"name" : "A2_OpenGL_SOURCE_DIR",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL"
+			"value" : "/home/yosua/Projects/OpenGL"
 		},
 		{
 			"name" : "BUILD_TESTING",
@@ -107,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build"
+			"value" : "/home/yosua/Projects/OpenGL/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -699,7 +699,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL"
+			"value" : "/home/yosua/Projects/OpenGL"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp" "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/src/CMakeFiles/Texture.dir/Texture.cpp.o"
+  "/home/yosua/Projects/OpenGL/src/Texture.cpp" "/home/yosua/Projects/OpenGL/build/src/CMakeFiles/Texture.dir/Texture.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/build/lib/CMakeFiles/stb_image.dir/DependInfo.cmake"
+  "/home/yosua/Projects/OpenGL/build/lib/CMakeFiles/stb_image.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

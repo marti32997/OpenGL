@@ -36,11 +36,11 @@ Vertex_Buffer.h
 
 ../include/Vertex_Buffer.h
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.cpp
+/home/yosua/Projects/OpenGL/src/Shader.cpp
 Shader.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.h
+/home/yosua/Projects/OpenGL/src/Shader.h
 Renderer.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.h
+/home/yosua/Projects/OpenGL/src/Renderer.h
 fstream
 -
 iostream

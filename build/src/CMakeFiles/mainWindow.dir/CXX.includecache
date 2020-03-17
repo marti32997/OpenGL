@@ -50,7 +50,7 @@ vector
 Renderer.h
 ../include/Renderer.h
 
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/application.cpp
+/home/yosua/Projects/OpenGL/src/application.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -68,17 +68,17 @@ string
 tuple
 -
 Index_Buffer.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Index_Buffer.h
+/home/yosua/Projects/OpenGL/src/Index_Buffer.h
 Renderer.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.h
+/home/yosua/Projects/OpenGL/src/Renderer.h
 Shader.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.h
+/home/yosua/Projects/OpenGL/src/Shader.h
 Vertex_Array.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.h
+/home/yosua/Projects/OpenGL/src/Vertex_Array.h
 Vertex_Buffer.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.h
+/home/yosua/Projects/OpenGL/src/Vertex_Buffer.h
 Vertex_Buffer_Layout.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer_Layout.h
+/home/yosua/Projects/OpenGL/src/Vertex_Buffer_Layout.h
 Texture.h
-/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.h
+/home/yosua/Projects/OpenGL/src/Texture.h
 
