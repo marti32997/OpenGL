@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A2_OpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\src\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glew\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Catch2\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb_image">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/libstb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 stb_image"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb_image/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/libstb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 stb_image/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainWindow">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/mainWindow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mainWindow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainWindow/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/mainWindow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mainWindow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Texture">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libTexture.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Texture"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Texture/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libTexture.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Texture/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Buffer">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Buffer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Buffer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Buffer/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Buffer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Buffer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shader">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libShader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Shader"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shader/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libShader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Shader/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Renderer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Renderer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Index_Buffer">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libIndex_Buffer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Index_Buffer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Index_Buffer/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libIndex_Buffer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Index_Buffer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Array">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Array.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Array/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Array.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Buffer_Layout">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Buffer_Layout.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Buffer_Layout"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vertex_Buffer_Layout/fast">
+				<Option output="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/libVertex_Buffer_Layout.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/include"/>
+					<Add directory="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Vertex_Buffer_Layout/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.cpp">
+			<Option target="stb_image"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/stb_image/stb_image.h">
+			<Option target="stb_image"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Index_Buffer.cpp">
+			<Option target="Index_Buffer"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.cpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Shader.cpp">
+			<Option target="Shader"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Texture.cpp">
+			<Option target="Texture"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Array.cpp">
+			<Option target="Vertex_Array"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.cpp">
+			<Option target="Vertex_Buffer"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer_Layout.cpp">
+			<Option target="Vertex_Buffer_Layout"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/application.cpp">
+			<Option target="mainWindow"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glew/CopyImportedTargetProperties.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glew/glew-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glew/glew-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/glew/glew-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/Catch2/Catch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/Catch2/Catch2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/Catch2/Catch2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/../../../../../../../usr/local/lib/cmake/Catch2/Catch2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

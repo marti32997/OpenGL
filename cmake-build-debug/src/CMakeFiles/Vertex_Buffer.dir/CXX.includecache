@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Index_Buffer.h
+
+../include/Renderer.h
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+signal.h
+-
+Index_Buffer.h
+../include/Index_Buffer.h
+Shader.h
+../include/Shader.h
+Vertex_Array.h
+../include/Vertex_Array.h
+
+../include/Shader.h
+string
+-
+tuple
+-
+unordered_map
+-
+
+../include/Vertex_Array.h
+Vertex_Buffer.h
+../include/Vertex_Buffer.h
+
+../include/Vertex_Buffer.h
+
+/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.cpp
+Vertex_Buffer.h
+/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Vertex_Buffer.h
+Renderer.h
+/home/yosua/Projects/CSCI251/A2/Shapes2D/OpenGL/src/Renderer.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVertex_Array.a  CMakeFiles/Vertex_Array.dir/Vertex_Array.cpp.o
+/usr/bin/ranlib libVertex_Array.a
